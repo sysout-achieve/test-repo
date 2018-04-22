@@ -12,6 +12,7 @@
 // $row['userName'] = $userName;
 // $row['userAge'] = $userAge;
 $con = mysqli_connect("localhost", "root", "7878", "test");
+
 $userID = $_POST["userID"];
 
 $result = mysqli_query($con, "select * from USER" );
