@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tabs>
+        <tab
+            id="@+id/tab_call_log"
+            icon="@drawable/outline_call_black_18dp"
+            title="call"
+            app:bb_inActiveTabColor="#ffffff"
+            barColorWhenSelected="#5D4037"
+
+            />
+        <tab
+            id="@+id/tab_contacts"
+            icon="@drawable/outline_menu_black_18"
+            activeColor="#FF0000"
+            title="menu" />
+        <!--
+        activeColor = 선택 색상 변경
+        barColorWhenSelected = 선택 시 하단 탭 전체 색 변경
+         -->
+        <tab
+            id="@+id/tab_macro_setting"
+            icon="@drawable/outline_more_black_18"
+            title="more" />
+    </tabs>
+</PreferenceScreen>
