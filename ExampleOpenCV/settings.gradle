@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 include ':app'
 include ':openCVLibrary341'
+=======
+include ':app'
+include ':openCVLibrary341'
+>>>>>>> 5ac062ff6dffaa1bebcfcd7041174117d98d1bd6
